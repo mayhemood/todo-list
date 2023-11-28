@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles.css">
+  <title>Edit Task</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Edit Task</h1>
+    <form action="/updateTask/<%= index %>" method="post">
+      <input type="text" name="task" value="<%= taskToEdit %>" required>
+      <button type="submit">Update</button>
+    </form>
+  </div>
+</body>
+</html>

@@ -1,4 +1,4 @@
-/* Add this style to your existing CSS */
+
 .new-task-input {
     padding: 10px;
     width: 70%;
@@ -6,8 +6,8 @@
     border-radius: 5px;
     margin-right: 10px;
     transition: border-color 0.3s ease-in-out;
-    background-image: url('./images/giphy.gif'); /* Replace with the path to your pen animation */
-    background-size: 60px; /* Adjust the size as needed */
+    background-image: url('./images/giphy.gif'); 
+    background-size: 60px; 
     background-repeat: no-repeat;
     background-position: 10px center;
   }
@@ -15,8 +15,6 @@
   input[type="text"]:focus {
     background-image: none;
   }
-  
-  /* Rest of your CSS styles */
   
 
 /* Overall Styles */
